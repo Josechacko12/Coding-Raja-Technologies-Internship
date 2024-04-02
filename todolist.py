@@ -16,10 +16,10 @@ class todo:
         self.label3=Label(self.root,text='Tasks',font='ariel', width=10,bd=5,bg='black',fg='white')
         self.label3.place(x=320,y=54)
 
-        self.main_text= Listbox(self.root, height=15,bd=5,width=38,font="ariel,20")
+        self.main_text= Listbox(self.root, height=12,bd=5,width=32,font="ariel,20")
         self.main_text.place(x=280,y=100)
 
-        self.text=Text(self.root,bd=5,height=2,width=25,font='ariel')
+        self.text=Text(self.root,bd=5,height=2,width=20,font='ariel')
         self.text.place(x=20,y=120)
 
           ################################ ADDTASK ####################################
